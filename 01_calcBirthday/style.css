@@ -1,0 +1,71 @@
+body {
+    background-color: #b0c4de;
+  }
+
+  main {
+    text-align: center;        
+    max-width: 600px;          
+    margin: 40px auto;         
+    background-color: #eeeeee; 
+    padding: 10%;              
+  }
+  main form input {
+    font-size: 16px;           
+    margin: 16px auto;         
+  }
+
+  #result {
+    border: dashed 4px #aaaaaa; 
+    background-color: #ffffff;  
+    padding: 10px 20px;         
+  }
+
+  .anime {
+    position: relative;
+  }
+
+  /*balloon image*/
+.balloon img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -300px;
+    right: 0%;
+  }
+  /*balloon Animation*/
+  .balloon {
+    animation: balloon-scoping 2s alternate infinite;
+  
+    animation-timing-function: linear;
+  }
+  @keyframes balloon-scoping {
+    0% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(100px);
+    }
+  }
+  
+  .balloon2 img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -600px;
+    left: 0%;
+  }
+  /*balloon Animation*/
+  .balloon2 {
+    animation: balloon-scoping 2s alternate infinite;
+  
+    animation-timing-function: linear;
+  }
+  @keyframes balloon-scoping {
+    0% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(100px);
+    }
+  }
+  
